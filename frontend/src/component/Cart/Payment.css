@@ -1,0 +1,159 @@
+.paymentMain{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    background-color: black;
+
+}
+
+
+.paymentContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    clip-path: polygon(78% 0, 100% 23%, 100% 79%, 78% 100%, 20% 100%, 0% 60%, 2% 2%);
+}
+.paymentBox{
+    width: 50vmax;
+    height: 45vmax;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid crimson;
+    border-radius: 50px;
+    text-align: center;
+}
+.paymentForm>p{
+    border-bottom: 1px solid crimson;
+    width: 20vmax;
+    padding-top: 2vmax;
+}
+
+
+.paymentForm{
+    display: flex;
+    flex-direction: column;
+    padding: 1vmax;
+    padding-left: 6vmax;
+    margin: auto;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.paymentForm>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.paymentForm>div>input{
+    width: 100%;
+    padding: 1vmax 5vmax;
+    border: 1px solid rgb(112, 109, 109);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+    text-align: center;
+}
+.first{
+  display: grid;
+  width: 5vmax;
+  height: 14vmax;
+  margin-left: 10px;
+
+}
+.second{
+  width: 100%;
+
+}
+.second>div{
+  margin: 15px;
+  width: 70%;
+}
+.first>svg{
+  height: 40px;
+  margin-top: 10px;
+}
+
+
+.__PrivateStripeElement{
+  display: flex;
+  width: 100%;
+}
+.paymentInput>div{
+  display: flex;
+  width: 100%;
+}
+.paymentBtn{
+    width: 9vmax;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.paymentBtn:hover{
+    color: black;
+    background-color: brown;
+    font-size: 1rem;
+}
+
+.paymentInput {
+    padding: 1vmax 4vmax;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    outline: none;
+  }
+  
+ 
+  
+  @media screen and (max-width: 600px) {
+
+    .paymentBox{
+      width: 50vmax;
+      height: 55vmax;
+      background-color: white;
+      overflow: auto;
+      border: 1px solid crimson;
+      border-radius: 50px;
+      text-align: center;
+  }
+    .paymentForm {
+      width: 90%;
+    }
+  
+    .paymentForm > p {
+      font: 400 8vw "Roboto";
+      padding: 4vw 0;
+      width: 60%;
+      margin-top: 200px;
+    }
+  
+    .paymentForm > div {
+      margin: 10vw 0;
+    }
+  
+    .paymentInput {
+      padding: 4vw 10vw;
+      width: 20vmax;
+    }
+  
+    .paymentForm > div > svg {
+      font-size: 6vw;
+    }
+  
+    .paymentBtn {
+      font: 300 4vw "Roboto";
+      padding: 4vw;
+      width: 25vmax;
+    }
+  }

@@ -1,0 +1,48 @@
+.cartCardMain{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.cartCard{
+display: grid;
+grid-template-columns: 6fr 3.4fr 0.6fr;
+}
+
+.products>div>img{
+    width: 5vmax;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 2px;
+}
+.b{
+    margin: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+.b:hover{
+    color: crimson;
+}
+.quantity{
+    display: flex;
+}
+.quantity>button{
+    height: 2vmax;
+    margin: 10px;
+    padding: 2px;
+    background-color: rgb(151, 148, 148);
+    cursor: pointer;
+    width: 2vmax;
+}
+.quantity>p{
+    height: 2vmax;
+    margin: 10px;
+    padding: 2px;
+}
+.quantity>button:hover{
+    background-color: crimson;
+}
+

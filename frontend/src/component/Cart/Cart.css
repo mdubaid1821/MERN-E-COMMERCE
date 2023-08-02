@@ -1,0 +1,149 @@
+.cartMain{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    background-color: black;
+
+}
+
+
+.cartContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    clip-path: polygon(78% 0, 100% 23%, 100% 79%, 78% 100%, 20% 100%, 0% 60%, 2% 2%);
+}
+.cartBox{
+    width: 60vmax;
+    height: 45vmax;
+    background-color: white;
+    overflow: auto;
+    border: 1px solid;
+    border-radius: 50px;
+}
+.cartHeader{
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 6fr 2.5fr 2fr;
+    width: 100%;
+
+}
+.cartHeader>p{
+    margin: 10px;
+    padding: 5px;
+}
+.cartHeader>p:last-child{
+    text-align: end;
+}
+.total{
+    border-top: 2px solid black;
+    width: 30vmax;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    
+}
+.checkOut{
+    border-top: 2px solid black;
+    width: 30vmax;
+    display: flex;
+     justify-content: center;
+     margin: auto;
+}
+.checkOut>button{
+    margin: 20px;
+    width: 10vmax;
+    cursor: pointer;
+    background-color: brown;
+    outline: none;
+    border: 1px solid brown;
+    border-radius: 10px;
+    height: 2vmax;
+    font-size: 1rem;
+}
+.checkOut>button:hover{
+    transform: scale(1.1);
+    background-color: antiquewhite;
+}
+.emptyCartMain{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+}
+.emptyCartContainer{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: crimson;
+    display: grid;
+    justify-content: center;
+    clip-path: polygon(0 0, 94% 6%, 86% 50%, 100% 100%, 21% 94%, 5% 47%);}
+.emptyCartBox{
+    width: 50vmax;
+    height: 20vmax;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    border: 1px solid crimson;
+    border-radius: 50px;
+
+}
+.emptyCartBox>p{
+    margin: 20px;
+    font-size: 1.3rem;
+    color: black;
+    
+}
+.emptyCartBox>a{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+}
+.emptyCartBox>a:hover{
+    background-color: red;
+    color: black;
+}
+.emptyCartBox>svg{
+    height: 8vmax;
+    width: 8vmax;
+    justify-content: center;
+
+    left: 30vmax;
+}
+
+
+@media screen and (max-width:700px) {
+    .checkOut>button{
+        margin: 20px;
+        width: 17vmax;
+        cursor: pointer;
+        background-color: brown;
+        outline: none;
+        border: 1px solid brown;
+        border-radius: 10px;
+        height: 5vmax;
+        font-size: 1rem;
+    }
+}

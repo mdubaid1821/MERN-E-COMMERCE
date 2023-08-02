@@ -1,0 +1,169 @@
+.profileMain{
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  background-color: black;
+
+}
+
+
+.profileContainer{
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: crimson;
+  position: fixed;
+  top: 0;
+  left: 0%;
+  clip-path: polygon(78% 0, 100% 23%, 100% 79%, 78% 100%, 20% 100%, 0% 60%, 2% 2%);
+}
+
+
+.profileBox{
+    background-color: crimson;
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profileBox>div{
+    background-color: white;
+    width: 40vmax;
+    height: 28vmax;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+}
+  
+.profileBox > div:first-child > img {
+  width: 20vmax;
+  border-radius: 100%;
+  transition: all 0.5s;
+}
+
+
+.profileBox > div:first-child > a {
+  border: none;
+  background-color: black;
+  font: 400 1vmax "Roboto";
+  color: white;
+  text-decoration: none;
+  padding: 0.5vmax;
+  width: 12%;
+  margin-top: 2vmax;
+  text-align: center;
+  transition: all 0.5s;
+  display: flex;
+  margin-left: 17vmax;
+}
+
+.profileBox > div:first-child > a:hover {
+  background-color: brown;
+}
+
+.profileBox > div:last-child {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 5vmax;
+  box-sizing: border-box;
+}
+
+.profileBox > div:last-child > div > h4 {
+  color: black;
+  font: 400 1.2vmax "Roboto";
+  
+}
+
+.profileBox > div:last-child > div > p {
+  color: rgba(0, 0, 0, 0.418);
+  font: 400 1vmax cursive;
+  margin: 0.2vmax;
+}
+
+.profileBox > div:last-child > div:last-child {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.profileBox > div:last-child > div:last-child > a {
+  border: none;
+  background-color: black;
+  font: 400 1vmax "Roboto";
+  color: white;
+  text-decoration: none;
+  padding: 0.5vmax;
+  text-align: center;
+  transition: all 0.5s;
+  margin-top: 1vmax ;
+  margin-left: 1ovmax;
+}
+
+.profileBox > div:last-child > div:last-child > a:hover {
+  background-color: brown;
+}
+
+@media screen and (max-width: 600px) {
+  .profileBox {
+    flex-direction: column;
+    overflow: auto;
+  }
+  .update{
+    height: 50vmax;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    width: 40vmax;
+  }
+
+  .profileBox > div:first-child > img {
+    width: 15vmax;
+    border-radius: 100%;
+    transition: all 0.5s;
+  }
+
+  .profileBox > div:first-child > h1 {
+    font: 500 3.2vmax "Roboto";
+    transform: translateY(-2vmax);
+  }
+
+  .profileBox > div:first-child > a {
+    font: 400 1.7vmax "Roboto";
+    padding: 1vmax;
+  }
+
+  .profileBox > div:last-child {
+    text-align: center;
+    align-items: center;
+  }
+
+  .profileBox > div:last-child > div > h4 {
+    font: 400 2.5vmax "Roboto";
+  }
+
+  .profileBox > div:last-child > div > p {
+    font: 400 2vmax cursive;
+    margin: 0.5vmax 0;
+  }
+
+  .profileBox > div:last-child > div:last-child > a {
+    font: 400 1.8vmax "Roboto";
+    padding: 1vmax;
+    margin: 2vmax 0;
+  }
+}

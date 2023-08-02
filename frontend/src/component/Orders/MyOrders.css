@@ -1,0 +1,76 @@
+.myOrdersMain{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    background-color: black;
+
+}
+
+
+.myOrdersContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    clip-path: polygon(78% 0, 100% 23%, 100% 79%, 78% 100%, 20% 100%, 0% 60%, 2% 2%);
+}
+.myOrdersBox{
+    width: 85vmax;
+    height: 30vmax;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid crimson;
+    border-radius: 50px;
+}
+.myOrdersBox>p{
+    text-align: center;
+    margin: auto;
+    color: brown;
+    border-bottom: 1px solid black;
+    width: 20vmax;
+}
+.myOrdersTable{
+    background-color: ghostwhite;
+    margin-top: 40px;
+    box-shadow: 0 0 5px black;
+    width: 80vmax;
+    margin-left: 25px;
+    
+}
+
+@media screen and (max-width:700px) {
+    .myOrdersBox{
+        width: 50vmax;
+        height: 50vmax;
+        background-color: white;
+        overflow: auto;
+        border: 1px solid crimson;
+        border-radius: 50px;
+    }
+    .myOrdersBox>p{
+        text-align: center;
+        margin: auto;
+        color: brown;
+        border-bottom: 1px solid black;
+        width: 20vmax;
+    }
+    .myOrdersTable{
+        background-color: ghostwhite;
+        margin-top: 40px;
+        box-shadow: 0 0 5px black;
+        width: 50vmax;
+        margin-left: 25px;
+        height: 50vmax;
+        
+    }
+}

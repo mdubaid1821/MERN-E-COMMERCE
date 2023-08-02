@@ -1,0 +1,59 @@
+.orderMain{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    background-color: black;
+
+}
+
+
+.orderContainer{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: crimson;
+    position: fixed;
+    top: 0;
+    left: 0%;
+    clip-path: polygon(78% 0, 100% 23%, 100% 79%, 78% 100%, 20% 100%, 0% 60%, 2% 2%);
+}
+.orderBox{
+    width: 40vmax;
+    height: 30vmax;
+    background-color: white;
+    overflow: hidden;
+    border: 1px solid crimson;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.orderBox>svg{
+    margin: 20px;
+    width: 5vmax;
+    height: 4vmax;
+}
+.orderBox>p{
+    margin: 20px;
+    font-size: 1.5rem;
+}
+.orderBox>a{
+    margin: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(67, 67, 66);
+    color: white;
+    border-radius: 10px;
+}
+.orderBox>a:hover{
+    color: black;
+    background-color: brown;
+}

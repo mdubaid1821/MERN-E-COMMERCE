@@ -1,0 +1,11 @@
+.productsListContainer{
+    border-left: 2px solid;
+    background-color: white;
+}
+.heading{
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}

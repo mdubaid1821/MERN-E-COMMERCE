@@ -1,0 +1,81 @@
+.createProductContainer{
+    background-color: white;
+    border-left: 2px solid black;
+}
+.createProductForm{
+    display: flex;
+    flex-direction: column;
+    padding: 5vmax;
+    margin: auto;
+    height: 70%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.createProductForm>div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.createProductForm>div>input{
+    width: 100%;
+    padding: 1vmax 3vmax;
+    border: 1px solid rgb(112, 109, 109);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.createProductForm>div>textarea{
+    width: 100%;
+    padding: 1vmax 3vmax;
+    border: 1px solid rgb(112, 109, 109);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.createProductForm>div>select{
+    width: 100%;
+    padding: 1vmax 3vmax;
+    border: 1px solid rgb(112, 109, 109);
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+#createProductImage>img{
+    height: 4.6vmax;
+    width: 4.6vmax;
+}
+
+#createProductBtn{
+    width: 9vmax;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#createProductBtn:hover{
+    color: black;
+    background-color: brown;
+    
+}
+
+
+.createProductForm>div>svg{
+    font-size: 2rem;
+    margin: 10px;
+}
+.loginForm>a{
+    color: rgb(117, 115, 115);
+    align-self: flex-end;
+}
+.loginForm>a:hover{
+    color: black;
+}
+.createProductFormImage>img{
+    width: 5vmax;
+    height: 5vmax;
+    margin: 10px;
+    padding: 5px;
+    
+}

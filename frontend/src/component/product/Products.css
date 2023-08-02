@@ -1,0 +1,35 @@
+.productHeading{
+    text-align: center;
+    border-bottom: 1px solid rgb(115, 112, 112);
+    width: 20vmax;
+    margin: 2vmax auto;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.paginationBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.filterBox{
+    width: 20vmax;
+    position: absolute;
+    top: 3vmax;
+    right: 10vmax;
+    
+}
+
+
+@media screen and (max-width: 600px){
+    .filterBox{
+        width: 20vmax;
+        position: static;
+        margin: auto;
+    }
+}
